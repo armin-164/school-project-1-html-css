@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+}
+
+.column-small {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+    background-color: lightblue;
+}
