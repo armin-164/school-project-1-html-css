@@ -26,16 +26,7 @@ body {
     flex-direction: column;
     padding:80px 40px 0 50px;
     flex: 3;
-    gap: 40vh;
 }
 
-.rows {
-    display: flex;
-    justify-content: space-between;
-    font-size: 30px;
-    font-weight: bold;
-}
 
-.rows > p:nth-child(2) {
-    font-size: 20px;
-}
+
