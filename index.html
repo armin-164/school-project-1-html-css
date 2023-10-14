@@ -25,7 +25,7 @@
     <main class="main-container">
         <aside class="column-small">
             <h1>Curriculum Vitae</h1>
-            <img src="https://images.unsplash.com/photo-1635107510862-53886e926b74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80" width="250" height="250" alt="A picture of my face">
+            <img src="https://images.unsplash.com/photo-1635107510862-53886e926b74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80" width="250" height="250" alt="A picture of a person wearing a white blanket on their head with sunglasses">
             <nav class="personal-info">
                 <h2>Personuppgifter</h2>
                 <ul>
@@ -86,5 +86,28 @@
             </ul>
         </section>
     </main>
+    <form action="wherever-you-wanna-send-it"> <!-- Hej! Jag har valt att exkludera id/name då de ej behövs i nuläget.  -->
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text"/>
+          </li>
+          <li>
+            <label for="mail">Email:</label>
+            <input type="email"/>
+          </li>
+          <li>
+            <label for="phone">Phone number:</label>
+            <input type="tel"/>
+          </li>
+          <li>
+            <label for="message">Message:</label>
+            <textarea id="message" name="user_message"></textarea>
+          </li>
+          <li class="button">
+            <button type="submit">Send your message</button>
+          </li>
+        </ul>
+      </form>
   </body>
 </html>
