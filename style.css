@@ -5,6 +5,7 @@ body {
 
 .main-container {
     display: flex;
+    border-bottom: 4px solid black;
 }
 
 .column-small {
@@ -14,6 +15,7 @@ body {
     gap: 50px;
     padding: 20px;
     background-color: lightblue;
+    border-right: 4px solid black;
 }
 
 .column-small > h1 {
