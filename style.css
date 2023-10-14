@@ -52,10 +52,9 @@ form {
     flex-direction: column;
 }
 
-form > ul > li {
+.rows > p {
     display: flex;
     flex-direction: column;
-    list-style-type: none;
     font-size: 2rem;
 }
 
